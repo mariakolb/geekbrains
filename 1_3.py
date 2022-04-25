@@ -1,0 +1,5 @@
+n = int(input('Введите число: '))
+n0 = str(n)
+n1 = int(str(n0+n0))
+n2 = int(str(n0+n0+n0))
+print(f'{n} + {n1} + {n2} = {n + n1 + n2}')
